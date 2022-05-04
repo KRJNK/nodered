@@ -20,7 +20,7 @@ services:
         aliases:
           - nodered
     volumes:
-      - /home/docker/node-red/data:/data
+      - ./node-red_fs/data:/data
 
 networks:
   node-red:
